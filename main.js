@@ -7,15 +7,15 @@ $(".hide.active").click(function () {
 });
 
 $(".changebutton").click(function(){
-	 $(".hide").toggleClass('active');
-	 $(".changebutton").toggleClass('active');
-	 $(".changebutton-x").toggleClass('active');
+    $(".hide").toggleClass('active');
+    $(".changebutton").toggleClass('active');
+    $(".changebutton-x").toggleClass('active');
 });
 
 $(".changebutton-x").click(function(){
-	 $(".hide").removeClass('active');
-	 $(".changebutton").removeClass('active');
-	 $(".changebutton-x").removeClass('active');
+    $(".hide").removeClass('active');
+    $(".changebutton").removeClass('active');
+    $(".changebutton-x").removeClass('active');
 });
 
 
@@ -23,7 +23,7 @@ $(".changebutton-x").click(function(){
 
 
 $(".openbtn").click(function () {//ボタンがクリックされたら
-  $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
+    $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
     $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
     $(".circle-bg").toggleClass('circleactive');//丸背景にcircleactiveクラスを付与
 });
